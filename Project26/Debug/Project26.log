@@ -1,0 +1,23 @@
+﻿Build started 8/18/2022 1:42:45 AM.
+     1>Project "D:\مشاريع الثالثة\مشروع البيانيات\Project26\Project26\Project26.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\graphics libarys\3DTexture.cpp" "..\..\..\graphics libarys\camera.cpp" "..\..\..\graphics libarys\Model_3DS.cpp" "..\..\..\graphics libarys\texture.cpp" Source.cpp
+         Source.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\tgaloader.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\مشاريع الثالثة\مشروع البيانيات\project26\project26\source.cpp(934): warning C4101: 'z' : unreferenced local variable
+     1>d:\مشاريع الثالثة\مشروع البيانيات\project26\project26\source.cpp(948): warning C4101: 'z' : unreferenced local variable
+         texture.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\graphics libarys\texture.cpp': No such file or directory
+         Model_3DS.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\graphics libarys\Model_3DS.cpp': No such file or directory
+         camera.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\graphics libarys\camera.cpp': No such file or directory
+         3DTexture.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\graphics libarys\3DTexture.cpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\مشاريع الثالثة\مشروع البيانيات\Project26\Project26\Project26.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.91
